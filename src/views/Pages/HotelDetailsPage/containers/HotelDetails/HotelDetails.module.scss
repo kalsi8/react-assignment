@@ -1,0 +1,28 @@
+.hotelDetails{
+    display: flex;
+    flex-wrap: wrap;
+    &Image{
+        width: 100%;
+        margin-right: 20px;
+    }
+    @media (min-width: 1024px) {
+        &Image{
+            width: 600px;
+        }
+    }
+
+
+    &Info{
+        &Name{
+            font-size: 30px;
+            font-weight: 700;
+
+        }
+        &Location{
+
+        }
+        &Price{
+
+        }
+    }
+}

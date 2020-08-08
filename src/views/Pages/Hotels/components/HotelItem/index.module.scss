@@ -1,0 +1,28 @@
+.hotelItem{
+    background: white;
+    box-shadow: 0 0 10px #000000;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+    &Image{
+        width: 270px;
+        @media (min-width: 1024px) {
+            width: 321px;
+        }
+        height: 200px;
+    }
+
+    &Content{
+        padding: 10px;
+        &Text{
+            &Label{
+                text-transform: capitalize;
+
+            }
+        }
+    }
+}
+
+.pointer{
+    cursor: pointer;
+}
